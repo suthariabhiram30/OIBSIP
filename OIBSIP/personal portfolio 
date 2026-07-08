@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Portfolio</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hello, I'm <span>Abhiram</span></h1>
+            <h3>Web Developer | CSE Student</h3>
+            <p>I design and build responsive websites using HTML, CSS, JavaScript and modern web technologies.</p>
+
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="profile.jpg" alt="Profile Photo">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am a Computer Science Engineering student passionate about web
+            development and programming. I enjoy learning new technologies,
+            building creative projects, and solving real-world problems.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill-grid">
+
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+            <div class="skill">C Programming</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Git & GitHub</div>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+
+        <h2>Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>Landing Page</h3>
+
+                <p>
+                    A modern responsive landing page created using HTML and CSS.
+                </p>
+
+                <a href="#">GitHub Repository</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    Responsive personal portfolio website with smooth scrolling.
+                </p>
+
+                <a href="#">GitHub Repository</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+
+        <h2>Contact Me</h2>
+
+        <p><strong>Name:</strong> Abhiram</p>
+        <p><strong>Email:</strong> abhiram@email.com</p>
+
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Abhiram | All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
